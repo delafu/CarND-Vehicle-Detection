@@ -64,7 +64,7 @@ After making a lot of tests, I´m using a 1.5 scale sliding window with a value 
 
 #### 2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
-Ultimately I searched on two scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result.  Here are some example images:
+Ultimately I searched on one scale using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result.  
 
 ![alt text][image3]
 ---
@@ -89,5 +89,9 @@ Here's an example result of the heatmap of one of the test images
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+This was a hard project with a lot of new concepts. The hardest part was to delete the false positives without sacrificing the speed but I was not able to acheive a fast algorithm without false positives.
+
+I think I can improve the project in many ways:
+* I think that I will obtain better results with a neural network. I´m watching the Object detection and segmentation lecture from Stanford
+* I will try to mix Project 4 and Project 5
 
