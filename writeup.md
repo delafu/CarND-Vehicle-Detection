@@ -29,7 +29,7 @@ You're reading it!
 
 ### Histogram of Oriented Gradients (HOG)
 
-####1. Explain how (and identify where in your code) you extracted HOG features from the training images.
+#### 1. Explain how (and identify where in your code) you extracted HOG features from the training images.
 
 The code for this step is contained in the first code cell of the IPython notebook in the function get_hog_features. I used the implementation of the web lesson.  
 
